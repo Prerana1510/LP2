@@ -1,8 +1,7 @@
-# Even Odd check without user input
+numbers = [10, 15]
 
-num = 10   # yaha apna number directly likho
-
-if num % 2 == 0:
-    print("Even number")
-else:
-    print("Odd number")
+for num in numbers:
+    if num % 2 == 0:
+        print(num, "even")
+    else:
+        print(num, "odd")
